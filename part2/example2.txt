@@ -1,0 +1,25 @@
+int a = 5;
+double b = 7.0;
+boolean c = true;
+//this is the comment !>=<.
+set setOfChars = [a];
+set setOfChars2 = [a,b,c];
+set setOfIntegers = [1,2,3];
+set setOfIntegers2 = [1, 2,  3];
+set setOfsets = [[1,2,3],[1],[2],[3]];
+set setOfSets = [ [1 ,  4] , [2 ]];
+yaz(setOfset);
+yaz();
+set intersectionOfTwoSets = [1,2] ^ [3,4];
+
+createSet(setOfNumbers, setOfsets);
+void createSet(set set1, set set2) { set mergeSets = set1 & set2;}
+boolean isSubset;
+if(a == b) {x = y;}
+if(setOfNumbers << setOfsets) {subset = true;}
+if(setOfNumbers >> setOfsets) {subset = false;}
+oxu(inr);
+int counter = 5;
+while(counter != 0) {
+    yaz(inr);
+}

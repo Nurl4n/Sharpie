@@ -1,0 +1,41 @@
+main{
+        set first = [1,2,3];
+        set second = [a,b,m];
+        set union = first & second;
+        set intersect = first ^ second;
+        first = second;
+        set third = union;
+        boolean bool = true;
+        first = [1,a,2,7,m];
+        set forth;
+        forth = [r,6] & [8,o,0,9] ^ [1,6,o,9] ~ [2,4,7,p];
+        yaz([1,2,4]);
+        yaz(true);
+        yaz(90);
+        yaz(union);
+
+        int a  = 0;
+        while(bool == true){
+                set x = [1,2] & [1,7,u,p];
+                a  = 5;
+                bool = false;
+        }
+        // function definition
+        void printSet ( set aSet) {
+             yaz(aSet);
+        }
+        // function called with 'do' keywords
+        do printSet(first);
+        int b = 5;
+        if(b == a){
+        }
+
+        if(b == a){
+                b = 4;
+        }
+
+        while(a != b){
+                a = b;
+        }
+        boolean bool = x;
+}
