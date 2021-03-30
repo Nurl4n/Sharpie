@@ -1,0 +1,22 @@
+int a = 5;
+double b = 7.0;
+boolean c = true;
+string str = #Salam salam!>=<#;
+//this is the comment !>=<.
+set setOfNumbers = [1,2,3];
+set setOfsets = [[1,2,3],[1],[2],[3]];
+yaz(setOfset);
+yaz(#It was set of sets#);
+set intersectionOfTwoSets = [1,2] ^ [3,4];
+
+createSet(setOfNumbers, setOfsets);
+void createSet(set set1, set set2) { set mergeSets = set1 & set2;}
+boolean isSubset;
+if(setOfNumbers << setOfsets) {subset = true;}
+if(setOfNumbers >> setOfsets) {subset = false;}
+string inputStr;
+oxu(inputStr);
+int counter = 5;
+while(counter != 0) {
+    yaz(inputStr);
+}
